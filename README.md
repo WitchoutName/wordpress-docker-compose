@@ -52,6 +52,8 @@ Default identification for the phpMyAdmin interface:
 ``` bash
 # Stop and remove containers
 docker-compose down
+#restart docker
+sudo systemctl restart docker
 # Build, and start the wordpress website
 docker-compose up -d --build
 # Reset everything
